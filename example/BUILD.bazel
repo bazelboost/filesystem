@@ -1,0 +1,103 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary")
+
+cc_binary(
+    name = "directory_symlink_parent_resolution",
+    srcs = ["directory_symlink_parent_resolution.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "error_demo",
+    srcs = ["error_demo.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "file_size",
+    srcs = ["file_size.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "file_status",
+    srcs = ["file_status.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "path_info",
+    srcs = ["path_info.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "simple_ls",
+    srcs = ["simple_ls.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "stems",
+    srcs = ["stems.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tchar",
+    srcs = ["tchar.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut0",
+    srcs = ["tut0.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut1",
+    srcs = ["tut1.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut2",
+    srcs = ["tut2.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut3",
+    srcs = ["tut3.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut4",
+    srcs = ["tut4.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut5",
+    srcs = ["tut5.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut6a",
+    srcs = ["tut6a.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut6b",
+    srcs = ["tut6b.cpp"],
+    deps = ["//:filesystem"],
+)
+
+cc_binary(
+    name = "tut6c",
+    srcs = ["tut6c.cpp"],
+    deps = ["//:filesystem"],
+)
