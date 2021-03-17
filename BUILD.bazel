@@ -28,5 +28,6 @@ cc_library(
         "@boost//io",
         "@boost//functional",
         "@boost//smart_ptr",
+        "@boost//detail",
     ],
 )
