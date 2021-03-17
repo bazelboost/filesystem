@@ -46,6 +46,9 @@ cc_binary(
     name = "tchar",
     srcs = ["tchar.cpp"],
     deps = ["//:filesystem"],
+    target_compatible_with = [
+        "@platforms//os:windows",
+    ],
 )
 
 cc_binary(
